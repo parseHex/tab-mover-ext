@@ -1,0 +1,15 @@
+{
+  "name": "tab-mover-ext",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "adm-zip": "^0.4.11"
+  }
+}

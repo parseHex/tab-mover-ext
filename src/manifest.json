@@ -1,0 +1,20 @@
+{
+	"name": "Tab Mover",
+	"version": "0.0.1",
+	"manifest_version": 2,
+	"description": "Move tabs around easily.",
+	"browser_action": {
+    "default_title": "Reorder this tab",
+    "default_popup": "popup/index.html"
+  },
+	"background": {
+		"scripts": [
+			"background.js"
+		],
+		"persistent": true
+	},
+	"permissions": [
+		"activeTab",
+		"contextMenus"
+	]
+}

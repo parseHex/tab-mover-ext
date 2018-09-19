@@ -1,0 +1,11 @@
+html, body {
+	width: 150px;
+	text-align: center;
+	margin: 0;
+	padding: 3px 0;
+}
+
+button {
+	padding: 5px;
+	display: inline-block;
+}
